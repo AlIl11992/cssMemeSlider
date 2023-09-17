@@ -98,3 +98,8 @@ input[name="circle"] {
     display: none;
 }
 
+input:checked+label {
+    background-color: rgb(170, 113, 7);
+    border: 0.4rem solid rgb(60, 81, 3);
+    transform: scale(1.5);
+}
